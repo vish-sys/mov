@@ -13,7 +13,7 @@ const MOVIES = [
     poster: "pictures/gaadi/gaadi_poster.jpg",
     banner: "pictures/gaadi/gaadi_banner.jpg",
     type: "embed",
-    embedUrl:  "https://fast.wistia.net/embed/iframe/s95vn83kgj"
+    embedUrl:  "https://fast.wistia.net/embed/iframe/zg3en3538x"
   },
   {
     id: "city-lights",
