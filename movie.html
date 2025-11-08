@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movie Hub — Watch</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"> MOVIE HUB</a>
+      
+    </div>
+  </header>
+
+  <main class="container">
+    <a class="back-link" href="index.html">← Back to Movie Hub</a>
+
+    <section id="movieHero" class="movie-hero">
+      <div class="hero-media">
+        <img id="poster" src="" alt="Movie poster" />
+      </div>
+      <div class="hero-info">
+        <h1 id="title">Loading…</h1>
+        <p id="meta" class="muted"></p>
+        <p id="description"></p>
+      </div>
+    </section>
+
+    <section class="player-section">
+  <div id="playerContainer" class="player-container"></div>
+  <p class="note">Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Movie Hub</div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/movie.js"></script>
+</body>
+</html>

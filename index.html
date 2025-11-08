@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movie Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"> MOVIE HUB</a>
+      <nav class="nav">
+        <input type="search" id="searchInput" placeholder="Search movies..." aria-label="Search movies" />
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Browse Movies</h1>
+    <div id="movieGrid" class="movie-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Movie Hub</div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
